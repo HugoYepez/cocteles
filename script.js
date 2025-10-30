@@ -17,7 +17,7 @@ function comprarCoctelEmoji(nombre, inputId) {
     return;
   }
 
-  const mensaje = `Hola 👋, quiero pedir ${cantidad} 🍹 de ${nombre} de Maison Frenchie Cocktail 🍸`;
+  const mensaje = `Hola 👋, quiero pedir ${cantidad} coctel🍹 de ${nombre} de Maison Frenchie Cocktail 🍸`;
   
   // Creamos la URL correctamente codificada
   const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
@@ -25,3 +25,4 @@ function comprarCoctelEmoji(nombre, inputId) {
   // Abrimos en una nueva ventana
   window.open(url, "_blank");
 }
+
