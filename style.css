@@ -201,3 +201,23 @@ header h1 {
 .coctel .led-btn {
   width: 100%;
 }
+.volver-btn {
+  display: inline-block;
+  background-color: #ff007f;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.volver-btn:hover {
+  background-color: #ff4fbf;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #ff4fbf;
+}
+
